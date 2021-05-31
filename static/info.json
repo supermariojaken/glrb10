@@ -68,6 +68,19 @@
 				"Content-Type": "text/html; charset=UTF-8"
 			}
 		},
+		"/create([^?]+html).*": {
+			"contentReplace": true,
+			"regexLink": "/create$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"/create([^?]+).*": {
+			"regexLink": "/create$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
 		"/html/([^?]+).*": {
 			"regexLink": "/html/$1",
 			"headers": {
