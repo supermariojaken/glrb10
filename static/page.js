@@ -61,6 +61,7 @@ module.exports = function (req, res, url) {
 					retut: 1,
 					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
 					themeId: "business",
+					tray: "custom",
 					tlang: "en_US",
 					presaveId: presave,
 					goteam_draft_only: 1,
