@@ -49,6 +49,47 @@ module.exports = function (req, res, url) {
 				flashvars: {
 					apiserver: "/",
 					storePath: process.env.STORE_URL + "/<store>",
+					isEmbed: 0,
+					ctc: "go",
+					ut: 23,
+					bs: "default",
+					appCode: "go",
+					page: "",
+					siteId: "13",
+					lid: 1,
+					isLogin: "Y",
+					retut: 0,
+					clientThemePath: process.env.CLIENT_URL + "/<client_theme>",
+					themeId: "business",
+					tray: "custom",
+					tlang: "en_US",
+					presaveId: presave,
+					goteam_draft_only: 0,
+					isWide: 1,
+					collab: 0,
+					nextUrl: "/html/list.html",
+				},
+				allowScriptAccess: "always",
+			};
+			break;
+		}
+	        
+		case "/go_full": {
+			let presave =
+				query.movieId && query.movieId.startsWith("m")
+					? query.movieId
+					: `m-${fUtil[query.noAutosave ? "getNextFileId" : "fillNextFileId"]("movie-", ".xml")}`;
+			title = "Video Editor";
+			attrs = {
+				data: process.env.SWF_URL + "/go_full.swf",
+				type: "application/x-shockwave-flash",
+				width: "100%",
+				height: "100%",
+			};
+			params = {
+				flashvars: {
+					apiserver: "/",
+					storePath: process.env.STORE_URL + "/<store>",
 					isEmbed: 1,
 					ctc: "go",
 					ut: 50,
