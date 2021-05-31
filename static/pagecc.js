@@ -76,7 +76,7 @@ module.exports = function (req, res, url) {
 			params.flashvars
 		)}</script>
 <link rel="stylesheet" type="text/css" href="/html/css/common_combined.css.gz.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+<link rel="stylesheet" href="https://josephcrosmanplays532.github.io/fonts/5/font2015.css">
 <link rel="stylesheet" href="/html/css/cc.css.gz.css">
 <script href="/html/js/common_combined.js.gz.js"></script>
 </head>
@@ -123,8 +123,8 @@ module.exports = function (req, res, url) {
                     </ul>
                 </li>
                 <li>
-				<a class="hidden-sm hidden-md hidden-lg" href="/v/videomaker">Make a Video</a>
-				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/v/videomaker">Make a Video</a></span>
+				<a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
+				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
                 </li>
             </ul>
         </div>
@@ -134,7 +134,7 @@ module.exports = function (req, res, url) {
 
 
         <ul class="breadcrumb">
-            <li><a href="/c/create">Make a video</a></li>
+            <li><a href="/create">Make a video</a></li>
             <li><a href="/character_creator/">Your Characters</a></li>
             <li class="active">Create a new character</li>
         </ul>
