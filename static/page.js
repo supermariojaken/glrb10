@@ -87,7 +87,7 @@ module.exports = function (req, res, url) {
 <link rel="stylesheet" href="https://josephcrosmanplays532.github.io/fonts/5/font2015.css">
 <link rel="stylesheet" href="/html/css/importer.css.gz.css">
 <link rel="stylesheet" href="/html/css/studio.css.gz.css">
-<script href="/html/js/common_combined.js.gz.js"></script>
+<script src="/html/js/common_combined.js.gz.js"></script>
 </head>
 <body style="margin:0px">
 <nav class="navbar site-nav" role="navigation">
