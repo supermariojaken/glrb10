@@ -16,7 +16,7 @@ function toParamString(table) {
 		.join(" ");
 }
 function toObjectString(attrs, params) {
-	return `<object id="obj" ${Object.keys(attrs)
+	return `<object ${Object.keys(attrs)
 		.map((key) => `${key}="${attrs[key].replace(/"/g, '\\"')}"`)
 		.join(" ")}>${toParamString(params)}</object>`;
 }
@@ -37,7 +37,7 @@ module.exports = function (req, res, url) {
 			let presave =
 				query.movieId && query.movieId.startsWith("m")
 					? query.movieId
-					: `m-${fUtil[query.noAutosave ? "getNextFileId" : "fillNextFileId"]("movie-", ".xml")}`;
+					: `m-${fUtil[query.Autosave ? "getNextFileId" : "fillNextFileId"]("movie-", ".xml")}`;
 			title = "Video Editor";
 			attrs = {
 				data: process.env.SWF_URL + "/go_full.swf",
@@ -83,7 +83,7 @@ module.exports = function (req, res, url) {
 			params.flashvars
 		)}</script>
 <link rel="stylesheet" type="text/css" href="/html/css/common_combined.css.gz.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+<link rel="stylesheet" href="https://josephcrosmanplays532.github.io/fonts/5/font2015.css">
 <link rel="stylesheet" href="/html/css/importer.css.gz.css">
 <link rel="stylesheet" href="/html/css/studio.css.gz.css">
 <script href="/html/js/common_combined.js.gz.js"></script>
@@ -131,8 +131,8 @@ module.exports = function (req, res, url) {
                     </ul>
                 </li>
                 <li>
-				<a class="hidden-sm hidden-md hidden-lg" href="/v/videomaker">Make a Video</a>
-				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/v/videomaker">Make a Video</a></span>
+				<a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
+				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
                 </li>
             </ul>
         </div>
