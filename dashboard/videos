@@ -644,7 +644,7 @@
                     <div class="collapse navbar-collapse navbar-ex1-collapse">
 
                         <ul class="nav navbar-nav navbar-right">
-                            <li><a href="/yourvideos">Your Videos</a></li>
+                            <li><a href="/dashboard/videos">Your Videos</a></li>
                             <li><a href="http://web.archive.org/web/20180104005511/https://goanimate.com/login">Login</a></li>
                             <li class="dropdown">
                                 <a class="dropdown-toggle" href="http://web.archive.org/web/20180104005511/https://goanimate.com/videos" data-toggle="dropdown">Explore <span class="caret"></span></a>
@@ -681,8 +681,7 @@
 
 <!-- END OF HEADER -->
 
-<div class='free-trial-banner'>
-    <span class='glyph-pro glyph-warning-sign'></span>
+<div class="warning">
     GoAnimate Legacy Redesinged is in process. to view the code, <a href="https://github.com/josephcrosmanplays532/GoAnimate-Legacy-Redesigned-Beta1.0">Click Here</a></div>
 
 <div class="container">
