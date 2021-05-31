@@ -12,7 +12,7 @@ module.exports = function (req, res, url) {
 	if (req.method != "POST" || url.path != "/goapi/saveMovie/") return;
 	loadPost(req, res).then(([data, mId]) => {
 		const trigAutosave = data.is_triggered_by_autosave;
-		if (trigAutosave && (!data.movieId || data.noAutosave)) return res.end("0");
+		if (trigAutosave && (!data.movieId || data.Autosave)) return res.end("0");
 
 		var body = Buffer.from(data.body_zip, "base64");
 		var thumb = data.thumbnail_large && Buffer.from(data.thumbnail_large, "base64");
