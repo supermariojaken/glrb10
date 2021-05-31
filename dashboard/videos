@@ -123,17 +123,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right">
 <li class="dropdown">
-    <a class="dropdown-toggle" href="https://support.vyond.com" data-toggle="dropdown">Help<span class="dropdown-caret"></span></a>
+    <a class="dropdown-toggle" href="https://josephcrosmanplays532.github.io/help" data-toggle="dropdown">Help<span class="dropdown-caret"></span></a>
     <ul class="dropdown-menu dropdown-menu-help">
 
         <li>
             <a href="#" onclick="zE.activate({hideOnClose: true});amplitudeTrackCtaHelp('quick_search');return false;">Quick Search</a>
         </li>
         <li>
-            <a href="https://support.vyond.com" onclick="amplitudeTrackCtaHelp('help_center');" target="_blank">Help Center</a>
+            <a href="https://josephcrosmanplays532.github.io/help" onclick="amplitudeTrackCtaHelp('help_center');" target="_blank">Help Center</a>
         </li>
         <li>
-            <a href="https://product.vyond.com/" onclick="amplitudeTrackCtaHelp('whats_new');" target="_blank">What’s New</a>
+            <a href="https://josephcrosmanplays532.github.io/whatsnew" onclick="amplitudeTrackCtaHelp('whats_new');" target="_blank">What’s New</a>
         </li>
     </ul>
 </li>
@@ -167,7 +167,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <li><a href="https://app.vyond.com/v2/security">Security</a></li>
         <li><a href="https://app.vyond.com/v2/subscription">Subscription</a></li>
         <li class="divider"></li>
-        <li><a href="https://app.vyond.com/video/list" onClick="amplitudeTrackSwitchVideoMaker('Go to Vyond Studio')">Go to Vyond Studio</a></li>
+        <li><a href="https://app.vyond.com/videos/list" onClick="amplitudeTrackSwitchVideoMaker('Go to Vyond Studio')">Go to Vyond Studio</a></li>
         <li class="divider"></li>
         <li><a class="gtm-logout" href="https://ga.vyond.com/logoff">Log Out</a></li>
     </ul>
@@ -259,7 +259,7 @@ _wq.push({ id: 'ay95ar1ct3', onReady: function(video) {
                     Start Now                </a>
                 <a
                     class="btn btn-default btn-lg text-uppercase"
-                    href="https://product.vyond.com/"
+                    href="https://josephcrosmanplays532.github.io/whatsnew"
                     target="_blank"
                     onclick="amplitudeTrackEvent(AMPLITUDE_EVENT.VM5_LEGACY_BANNER_CTA, { trigger: 'whats_new' })"
                 >
