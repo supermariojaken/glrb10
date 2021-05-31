@@ -16,7 +16,7 @@ function toParamString(table) {
 		.join(" ");
 }
 function toObjectString(attrs, params) {
-	return `<object id="obj" ${Object.keys(attrs)
+	return `<object ${Object.keys(attrs)
 		.map((key) => `${key}="${attrs[key].replace(/"/g, '\\"')}"`)
 		.join(" ")}>${toParamString(params)}</object>`;
 }
@@ -67,7 +67,7 @@ module.exports = function (req, res, url) {
 			params.flashvars
 		)}</script>
 		<link rel="stylesheet" type="text/css" href="/html/css/common_combined.css.gz.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700">
+    <link rel="stylesheet" href="https://josephcrosmanplays532.github.io/fonts/5/font2015.css">
     <link rel="stylesheet" href="/html/css/video.css.gz.css">
     <script href="/html/js/common_combined.js.gz.js"></script>
 	</head>
@@ -114,8 +114,8 @@ module.exports = function (req, res, url) {
                     </ul>
                 </li>
                 <li>
-				<a class="hidden-sm hidden-md hidden-lg" href="/v/videomaker">Make a Video</a>
-				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/v/videomaker">Make a Video</a></span>
+				<a class="hidden-sm hidden-md hidden-lg" href="/videomaker">Make a Video</a>
+				<span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker">Make a Video</a></span>
                 </li>
             </ul>
         </div>
@@ -124,14 +124,13 @@ module.exports = function (req, res, url) {
 		<div id="video-page">
     <input type="hidden" name="ct" value="ZGuIheohj78KogqqFMVEXQI7GASGGcS1dC1znbdZzlmaL96D6rGzqkdpEZ6YLctCdKfwSELdjFOjhwPI2Nflra0ZYdoejDwiNMviXYgFgvpZlbs5uzh6vT2Wjhfwxd_dHWNLq1QyRYEy3N99m+bD6BKqofDaJfcCemDYIm1LKlIBmZCzvyQudYFVBT7pWBPc9ZOLTvvI+ynHo1xcbKMZQatab_0Q6zyozNZ52ZrLUJ8ZWYLLe4">
     <div class="background">
-        <div class="thumbnail-container" style="background-image:url('http://localhost/movie_thumbs/m-6.png')">
+        <div class="thumbnail-container" style="background-image:url('https://josephcrosmanplays532.github.io/img/demo.png')">
             <div class="thumbnail-overlay"></div>
         </div>
         <div class="container">
             <div class="main">
-                <div class="video-player-viewport using-flash" style="background-image: url('http://web.archive.org/web/20181123104749im_/https://assets.vyond.com/v1/get/fs.goanimate.com/files/thumbnails/movie/2724/12296724/29109915L.jpg?enc_type=sse_c&amp;expires=1536007313&amp;sec_key_id=2034338&amp;signature=2ba191706429b6c63b86296c86862190f54a3917b195639fb28d60fed027ed7c');">
-                                <div class="video-player-wrapper embed-responsive embed-responsive-16by9">
-								${toObjectString(attrs, params)}
+                <div class="video-player-viewport using-flash" style="background-image: url('https://josephcrosmanplays532.github.io/img/demo.png');">
+                                <div class="video-player-wrapper embed-responsive embed-responsive-16by9">${toObjectString(attrs, params)}
                                 </div>
                                 <div class="video-info hidden-xs" data-video-id="07m3MiyKSl-w" data-is-owner="yes" data-owner="0aWj-HdFtJ5c" data-duration="4" style="display: block;">
                                     <div class="video-info-content">
