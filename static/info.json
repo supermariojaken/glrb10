@@ -55,6 +55,19 @@
 				"Content-Type": "text/html; charset=UTF-8"
 			}
 		},
+		"/videomaker/([^?]+html).*": {
+			"contentReplace": true,
+			"regexLink": "/videomaker/$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
+		"/videomaker/([^?]+).*": {
+			"regexLink": "/videomaker/$1",
+			"headers": {
+				"Content-Type": "text/html; charset=UTF-8"
+			}
+		},
 		"/html/([^?]+).*": {
 			"regexLink": "/html/$1",
 			"headers": {
