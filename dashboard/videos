@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-<link rel="dns-prefetch" href="https://d2bm7x1jqouzel.cloudfront.net">
+<link rel="dns-prefetch" href="https://josephcrosmanplays532.github.io">
 <link rel="dns-prefetch" href="//d3v4eglovri8yt.cloudfront.net">
 
 <title>Your Videos on GoAnimate Legacy Redesinged</title>
@@ -143,6 +143,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         e.stopPropagation();
     });
 </script>
+<li>
+                        <a class="hidden-sm hidden-md hidden-lg" href="/videomaker/full/">Make a Video</a>
+                        <span class="site-nav-btn hidden-xs"><a class="btn btn-orange" href="/videomaker/full/">Make a Video</a></span>
+</li>
 <li class="dropdown">
     <a class="dropdown-toggle" href="https://app.vyond.com/v2/profile" data-toggle="dropdown">
         <span class="hidden-sm hidden-md hidden-lg">Your Account</span>
@@ -233,7 +237,7 @@ _wq.push({ id: 'ay95ar1ct3', onReady: function(video) {
             <h1 class="vm5-banner__main__title">
                 Make Videos <b>Faster</b>            </h1>
             <div class="vm5-banner__main__content">
-                The all-new Vyond Studio is fast, intuitive and already included with your subscription! No registration. No cost.            </div>
+                The all-new Joseph Animate Awsome Domain is fast, intuitive and already included with your subscription! No registration. No cost.            </div>
             <ul class="vm5-banner__main__bullets row">
                 <li class="col-sm-4">
                     <span class="vm5-banner__main__bullet__icon vm5-banner__main__bullet__icon--preview"></span>
@@ -248,7 +252,7 @@ _wq.push({ id: 'ay95ar1ct3', onReady: function(video) {
             <div class="vm5-banner__cta">
                 <a
                     class="btn btn-orange btn-lg text-uppercase"
-                    href="https://app.vyond.com/videos/list"
+                    href="https://josephcrosmanplays532.github.io"
                     target="_blank"
                     onclick="amplitudeTrackEvent(AMPLITUDE_EVENT.VM5_LEGACY_BANNER_CTA, { trigger: 'start_now' })"
                 >
